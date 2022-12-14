@@ -1,0 +1,16 @@
+<div class="card" style="width: 16rem">
+  <img [src]="developer.avatar" class="card-img-top" [alt]="developer.email" />
+  <div class="card-body">
+    <h5 class="card-title">{{ developer.firstName }} {{ developer.lastName }}</h5>
+    <h6 class="card-subtitle mb-2 text-muted">{{ developer.email }}</h6>
+    <p class="card-text">
+        {{developer.jobTitle}}
+    </p>
+    <p class="card-text fw-lighter">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab praesentium, soluta numquam culpa ducimus repellendus tenetur deleniti cum? Tempora eum repellat illo nemo. Facere aliquid minima, dolor molestias similique asperiores.
+    </p>
+    <div class="d-flex justify-content-center">
+      <a [routerLink]="['/note-detail', developer.id]" routerLinkActive="active" class="btn btn-primary text-center">View details</a>
+    </div>
+  </div>
+</div>

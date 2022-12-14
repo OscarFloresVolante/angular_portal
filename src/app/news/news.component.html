@@ -1,0 +1,15 @@
+<div class="d-flex flex-column">
+  <div class="jumbotron">
+    <h1 class="display-4">Developers</h1>
+    <p class="lead">Thanks for support us developers...</p>
+  </div>
+</div>
+
+<div class="my-3 container">
+  <div class="d-flex flex-wrap justify-content-center">
+    <app-note class="m-2"
+      [developer]="developer"
+      *ngFor="let developer of developersList"
+    ></app-note>
+  </div>
+</div>

@@ -1,0 +1,26 @@
+<div class="container mt-4">
+  <div class="row d-flex align-items-center">
+    <div class="col-2 text-center shadow p-3 bg-body rounded">
+        <img [src]="developer.avatar" [alt]="developer.email" />
+    </div>
+    <div class="col-10">
+        <div class="ms-4">
+            <span class="fs-2 fw-semibold">Name: {{ developer.firstName }} {{ developer.lastName }}</span><br />
+            <span class="fs-4 fst-italic">Job Title: {{ developer.jobTitle }}</span><br />
+            <span class="fs-6 fw-lighter">{{ developer.email }}</span><br />
+        </div>
+    </div>
+  </div>
+  <div class="text-center mt-5">
+        Mollit exercitation do qui cillum excepteur nulla sint nostrud ad ullamco quis. Elit et duis ea do dolor laboris irure nulla minim irure esse sint Lorem incididunt. Ullamco minim in aliqua ex sint dolor enim ut veniam ad est cillum. Ea adipisicing cupidatat officia ullamco reprehenderit tempor sunt sit voluptate. Anim veniam laboris adipisicing ipsum laborum anim incididunt mollit.
+        <br /><br />
+        Voluptate aute commodo ut commodo exercitation elit non non laborum aliquip ut. Ea nulla nulla aliquip commodo ad deserunt exercitation culpa eiusmod. Reprehenderit sunt nostrud exercitation duis aliquip aliqua nisi consectetur veniam cillum fugiat. Adipisicing veniam tempor in ex occaecat culpa dolore culpa aute aliqua exercitation elit ipsum.
+        <br /><br />
+        Consectetur aliquip occaecat nisi commodo elit ut culpa. Et laboris veniam in non irure reprehenderit. Do dolor dolor pariatur eiusmod proident nisi irure mollit minim qui dolore ea ex eu. Do qui elit irure Lorem aliqua laboris ullamco cillum aute sint deserunt pariatur cupidatat nisi. Voluptate veniam minim culpa id velit. Sunt non esse anim enim in sunt magna consectetur reprehenderit.
+        <br /><br />
+        Esse tempor eiusmod ipsum eiusmod. Reprehenderit ut et elit pariatur. Ex irure sint exercitation nulla enim fugiat occaecat ex. Enim nostrud est ullamco qui nulla. Proident sint pariatur excepteur dolor exercitation dolore cillum velit eiusmod ad est. Nisi sunt do aliquip consequat ad dolor sunt amet qui nulla. Velit eiusmod irure nostrud laboris proident ad ex culpa in labore dolore.
+        <br /><br />
+        <a [routerLink]="['/index']" routerLinkActive="active" class="btn btn-primary text-center">Back</a>
+  </div>
+  
+</div>
